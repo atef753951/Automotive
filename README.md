@@ -3,9 +3,11 @@ Project Specifications for CAN Bus Communication Simulator with ABS Module
 TBA: While the project can serve as a useful educational tool for understanding CAN communication and basic ABS concepts, it would require substantial enhancements and rigorous testing to be considered credible and reliable for real-world vehicle use.
 
 Project Overview
+
 This project simulates a CAN Bus communication system specifically designed for an Anti-lock Braking System (ABS) in vehicles. It demonstrates how different electronic control units (ECUs) can communicate over a CAN bus to monitor and control vehicle functions.
 
 Project Components
+
 The project consists of the following main components:
 1. CAN Bus Simulator: Manages sending and receiving messages.
 2. ABS Module: Simulates the ABS functionality by sending wheel speed data and determining when to send a stop command.
