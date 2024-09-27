@@ -9,7 +9,7 @@ This project simulates a CAN Bus communication system designed for an Anti-lock 
 
 ## Project Components
 1. **CAN Bus Simulator**: Manages sending and receiving messages.
-2. **ABS Module**: Simulates the ABS functionality by sending wheel speed data and determining when to send a stop command.
+2. **ABS Module**: Simulates the ABS functionality by sending wheel speed data and receiving a stop command if necessairy.
 3. **Main Program**: Integrates the CAN Bus and ABS modules, controlling the simulation flow.
 
 ## Code Structure
@@ -24,7 +24,7 @@ This project simulates a CAN Bus communication system designed for an Anti-lock 
    - Simulate sending and receiving CAN messages between the ABS module and the main program.
 
 2. **ABS Module Functionality**:
-   - Simulate dynamic wheel speed generation (0 to a defined maximum speed).
+   - Simulate dynamic wheel speed generation.
    - Send wheel speed data to the main program through the CAN Bus.
    - Receive a stop command when the wheel speed exceeds a threshold of 120 km/h.
 
