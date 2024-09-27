@@ -56,3 +56,6 @@ This project simulates a CAN Bus communication system designed for an Anti-lock 
    gcc -o abs_simulator.exe src/can_bus.c src/abs.c src/main.c -I src/
 
 ## Output Examples
+
+![Capture d'écran 2024-09-24 173315](https://github.com/user-attachments/assets/3080c552-b08e-46e6-b218-fb0d33a1e441)
+![Capture d'écran 2024-09-24 173421](https://github.com/user-attachments/assets/12a17998-c877-4491-96b6-d5e2112abdee)
